@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.container{
+    background-color: white;
+    border-radius: 50px;
+    
+}
+.head{
+    padding: 30px;
+    border: 2px solid orange;
+
+}
+
+.entry{
+    text-align: center;
+    margin: 20px;
+    
+}
+.entry input{
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border: 4px solid orange;
+
+}
+
+#btn {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+#btn:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
